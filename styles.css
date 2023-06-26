@@ -59,8 +59,6 @@ footer {
     bottom: 0;
     background-color: #f7c815;
     color: #9c4a1a;
-    overflow-y: auto;
-    height: 90px;
     /* display: grid;
     grid-template-columns: auto; */
 }
@@ -100,6 +98,7 @@ footer {
     font-size: 100px;
     text-align: center;
     margin-bottom: 30px;
+    position: relative;
 }
 
 .G, .g {
@@ -184,4 +183,19 @@ form .text-box:focus {
     .stuffs {
         gap: 20px;
     }
+    footer {
+        overflow-y: auto;
+        height: 90px;
+    }
+
+    .image-text {
+        left: 70%;
+        bottom: 78.5%;
+    }
+}
+
+.image-text {
+    color: #4385F5;
+    position: absolute;
+    font-size: 28px;
 }
