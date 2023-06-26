@@ -135,7 +135,7 @@ form img {
     gap: 12px;
 }
 
-.buttons button, .buttons a {
+.buttons input {
     padding: 11px;
     border: 2px solid #ec9704;
     background-color: #ec9704;
@@ -146,7 +146,7 @@ form img {
     border-radius: 4px;
 }
 
-.buttons button:hover, .buttons a:hover {
+.buttons input:hover {
     border: 2px solid #a78b71;
 }
 
