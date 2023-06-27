@@ -1,0 +1,165 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: #fff4e8;
+}
+
+nav {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 12px;
+  height: 50px;
+  padding-inline: 17px;
+  background-color: #f7c815;
+}
+
+nav .page-links {
+  text-decoration: none;
+  color: #9c4a1a;
+  font-size: 17px;
+}
+
+nav .page-links:hover {
+  border-bottom: 1px solid #9c4a1a;
+}
+
+nav img {
+  max-width: 30px;
+  max-height: 30px;
+  border-radius: 100%;
+  border: 1px solid rgb(255, 145, 2);
+  transition-duration: 0.5s;
+}
+
+nav img:hover {
+  transform: scale(1.2);
+  transition-duration: 0.3s;
+}
+
+nav p {
+  position: fixed;
+  left: 0;
+  padding-left: 20px;
+  font-size: 25px;
+}
+
+.G,
+.g {
+  color: #4385f5;
+}
+
+.o1,
+.e {
+  color: #ea4234;
+}
+
+.o2 {
+  color: #b68b0c;
+}
+
+.l {
+  color: #34a952;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  background-color: #f7c815;
+  color: #9c4a1a;
+  /* display: grid;
+    grid-template-columns: auto; */
+}
+
+.country,
+.stuffs {
+  display: flex;
+  gap: 34px;
+  width: 100vw;
+  padding-left: 25px;
+  padding-bottom: 15px;
+  padding-top: 15px;
+}
+
+.stuffs {
+  border-top: 2px solid #9c4a1a;
+}
+
+.container header {
+  font-size: 25px;
+  color: #ea4234;
+  margin: 35px 0 35px 0;
+  padding-left: 35px;
+  padding-bottom: 30px;
+  border-bottom: 2px solid #9c4a1a;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 26px;
+  padding-left: 35px;
+}
+
+form .title {
+  font-size: 20px;
+}
+
+.words {
+  margin-right: 34px;
+  max-width: 800px;
+  display: grid;
+  grid-template-columns: 200px auto;
+  align-items: center;
+}
+
+.words input {
+  padding-left: 14px;
+  height: 34px;
+}
+
+.search-button {
+  width: 130px;
+  height: 34px;
+  margin-left: 669px;
+  background-color: #4385f5;
+  border-style: none;
+  color: white;
+}
+
+.search-button:hover {
+  background: linear-gradient(#4385f5, #1e5bc5);
+}
+
+@media screen and (max-width: 768px) {
+  .words {
+    display: grid;
+    grid-template-columns: auto;
+  }
+
+  form {
+    gap: 20px;
+  }
+
+  .search-button {
+    margin: 0 auto;
+    padding-top: 2px;
+  }
+}
